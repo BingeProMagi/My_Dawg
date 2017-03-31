@@ -1,0 +1,20 @@
+.header-img {
+  height: 30vh;
+  background-color: lightgrey;
+  width: 100%; }
+
+.container {
+  max-width: 100%; }
+
+.fa-angle-left, .fa-angle-right {
+  color: yellow; }
+
+#carouselExampleControls {
+  margin-top: 20px; }
+
+.carousel-item img {
+  margin: 0 auto; }
+
+.carousel-item ul {
+  list-style-type: none;
+  padding: 0; }
