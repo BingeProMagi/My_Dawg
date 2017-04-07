@@ -1,0 +1,46 @@
+
+Välkommen till mina fin-fina instruktioner som 
+jag har gjort för att få ut så mycket av detta tema.
+
+-------------------------------------------------------
+
+LÄGGA UT NYA HUNDAR:
+	
+- Alla hundar ska ha kategorin: Hund inbockad.
+
+- Välj sedan kategori efter vilken "storlek" 
+  det är på hunden (Små, Medel, Stor).
+
+- Bestäm bild på genom att trycka på 
+  set feature image. OBS! Detta är ett måste för
+  att andra funktioner ska fungera.
+
+-------------------------------------------------------
+
+PAGE DÄR HUNDARNA ÄR SAMLADE:
+
+- För att kunna se hundarna samlade, rekommenderas 
+  det att skapa en page med page-tempalet "Vara Hundar".
+
+
+-------------------------------------------------------
+
+WIDGETS:
+
+- Det finns tre ställer att lägga in widgets, 
+  
+- Front-Page-Sidebar ska ett Facebook-pluggin användas.
+
+- Dog-Page-Sidebar ska ha categories.
+
+- Footer-Area änvänds bara till minde widgets
+
+-------------------------------------------------------
+
+MENY:
+
+- Kan användas fritt och är Header Menu.
+
+------------------------------------------------------
+
+Maila @ markus.pantzar@gmail.com för övriga frågor

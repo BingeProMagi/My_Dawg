@@ -42,9 +42,6 @@
           </div>
         </form>
       </nav>    
-    </div> <!-- navbar-wrapper -->
-    <div class="header-img">
-    </div><!-- .header-img -->
    
   
 

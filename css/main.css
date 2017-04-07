@@ -37,10 +37,10 @@ img {
   max-width: 100%; }
 
 .carousel-control-next {
-  right: -50px; }
+  right: -25px; }
 
 .carousel-control-prev {
-  left: -50px; }
+  left: -25px; }
 
 .sidebar-dog .widget h4 {
   font-size: 1.1em;
@@ -58,8 +58,7 @@ img {
   color: #F24C27; }
 
 #carouselExampleControls {
-  margin-top: 20px;
-  margin: 20px; }
+  margin-top: 20px; }
   #carouselExampleControls .carousel-item .attachment-post-thumbnail .size-post-thumbnail .wp-post-image {
     margin: 0 auto; }
   #carouselExampleControls .carousel-item ul {
@@ -134,7 +133,10 @@ footer {
     margin: 25px 0; }
 
 .help h1 {
-  margin: 25px 0; }
+  margin: 25px 0;
+  background-color: #024959;
+  color: #F24C27;
+  padding: 5px; }
 
 .btn {
   border-radius: 0; }

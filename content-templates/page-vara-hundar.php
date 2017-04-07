@@ -40,7 +40,7 @@ Template Name: Vara Hundar
 
 		</div><!-- col-md-9 -->
 
-		<div class="col-md-3">			
+		<div class="col-md-3 hidden-xs-down hidden-sm">			
 			<?php get_sidebar($name = 'dog'); ?>
 		</div><!-- col-md-3 -->
 	

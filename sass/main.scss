@@ -32,10 +32,10 @@ img{
 	max-width: 100%;
 }
 .carousel-control-next{
-	right: -50px;
+	right: -25px;
 } 
 .carousel-control-prev{
-	left: -50px;
+	left: -25px;
 }
 .sidebar-dog{
 	.widget{
@@ -68,7 +68,6 @@ img{
 
 #carouselExampleControls{
 	margin-top:20px;
-	margin: 20px;
 	.carousel-item{
 		.attachment-post-thumbnail .size-post-thumbnail .wp-post-image{
 			margin: 0 auto;
@@ -189,6 +188,9 @@ footer {
 .help{
 	h1{
 		margin: 25px 0;
+		background-color: $marine-blue;
+		color: $fire-orange;
+    	padding: 5px;
 	}
 }
 

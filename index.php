@@ -1,7 +1,8 @@
 <?php get_header(); ?>
-
+		
 		<!-- Carousel -->
 		<div class="container-fluid">
+			
 			<div class="row">
 				<div class="col-md-12">
 					<div id="carouselExampleControls" class="carousel slide" data-ride="carousel" data-interval= false>
@@ -94,7 +95,7 @@
 						}?>
 			
 			</div><!-- col-md-8 -->
-			<div class="col-md-4">
+			<div class="col-md-3 hidden-xs-down hidden-sm">
 				<h4>Facebook</h4>				
 				<?php get_sidebar( $name= 'front'); ?>
 			</div><!-- col-md-4 -->
