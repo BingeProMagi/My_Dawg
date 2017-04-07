@@ -1,20 +1,146 @@
+@import url("https://fonts.googleapis.com/css?family=Cabin:400,500,600");
+body {
+  font-family: 'Cabin', sans-serif; }
+
+.navbar {
+  font-size: 1.25em; }
+  .navbar .navbar-brand {
+    background: #F24C27;
+    color: #404040;
+    padding: 0 5px; }
+    .navbar .navbar-brand:hover {
+      color: black; }
+
+.site-wrapper {
+  height: 100vh;
+  background-color: #FFAAAA; }
+
 .header-img {
   height: 30vh;
-  background-color: lightgrey;
+  background-color: #eeeeee;
   width: 100%; }
+
+img {
+  max-width: 100%;
+  height: auto; }
+
+.post img, .with-feature-img img {
+  margin-top: 25px; }
+
+.input-group {
+  margin-top: 20px; }
+
+.navbar-wrapper {
+  background-color: #F2EFDC; }
 
 .container {
   max-width: 100%; }
 
+.carousel-control-next {
+  right: -50px; }
+
+.carousel-control-prev {
+  left: -50px; }
+
+.sidebar-dog .widget h4 {
+  font-size: 1.1em;
+  margin-bottom: 1.2em; }
+
+.sidebar-dog .widget ul {
+  list-style: none;
+  border-bottom: 2px dotted #404040; }
+  .sidebar-dog .widget ul li {
+    margin-bottom: 1.2em; }
+    .sidebar-dog .widget ul li a {
+      font-size: 1.6em; }
+
 .fa-angle-left, .fa-angle-right {
-  color: yellow; }
+  color: #F24C27; }
 
 #carouselExampleControls {
-  margin-top: 20px; }
+  margin-top: 20px;
+  margin: 20px; }
+  #carouselExampleControls .carousel-item .attachment-post-thumbnail .size-post-thumbnail .wp-post-image {
+    margin: 0 auto; }
+  #carouselExampleControls .carousel-item ul {
+    list-style-type: none;
+    padding: 0; }
+  #carouselExampleControls .carousel-item h2 {
+    text-align: center; }
+    #carouselExampleControls .carousel-item h2 a {
+      color: #037E8C; }
+      #carouselExampleControls .carousel-item h2 a:hover {
+        color: #024959;
+        text-decoration: none; }
+  #carouselExampleControls .carousel-item img {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    display: block; }
+  #carouselExampleControls .carousel-item div {
+    background-color: #F2EFDC; }
 
-.carousel-item img {
-  margin: 0 auto; }
+footer {
+  margin-top: 40px;
+  height: 80px;
+  background-color: #404040; }
+  footer p {
+    color: #eeeeee; }
 
-.carousel-item ul {
-  list-style-type: none;
-  padding: 0; }
+.wp-post-image {
+  margin-bottom: 15px; }
+
+.categories .stora, .categories .intermediate, .categories .small {
+  float: left; }
+  .categories .stora .attachment-post-thumbnail .size-post-thumbnail .wp-post-image, .categories .intermediate .attachment-post-thumbnail .size-post-thumbnail .wp-post-image, .categories .small .attachment-post-thumbnail .size-post-thumbnail .wp-post-image {
+    margin: 0 auto; }
+  .categories .stora h4, .categories .intermediate h4, .categories .small h4 {
+    text-align: center; }
+    .categories .stora h4 a, .categories .intermediate h4 a, .categories .small h4 a {
+      color: #037E8C; }
+      .categories .stora h4 a:hover, .categories .intermediate h4 a:hover, .categories .small h4 a:hover {
+        color: #024959;
+        text-decoration: none; }
+  .categories .stora img, .categories .intermediate img, .categories .small img {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    display: block; }
+  .categories .stora div, .categories .intermediate div, .categories .small div {
+    background-color: #F2EFDC; }
+
+.categories .organisation {
+  float: left; }
+  .categories .organisation .attachment-post-thumbnail .size-post-thumbnail .wp-post-image {
+    margin: 0 auto; }
+  .categories .organisation h4 {
+    text-align: center; }
+    .categories .organisation h4 a {
+      color: #037E8C; }
+      .categories .organisation h4 a:hover {
+        color: #024959;
+        text-decoration: none; }
+  .categories .organisation img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block; }
+  .categories .organisation p {
+    text-align: center; }
+
+.page-template-page-vara-hundar .marine-blue {
+  border-bottom: 2px dotted #404040;
+  margin-bottom: 25px; }
+  .page-template-page-vara-hundar .marine-blue h2 {
+    margin: 25px 0; }
+
+.help h1 {
+  margin: 25px 0; }
+
+.btn {
+  border-radius: 0; }
+
+.btn-primary {
+  background-color: #037E8C; }
+  .btn-primary:hover {
+    background-color: #024959;
+    color: #F24C27; }

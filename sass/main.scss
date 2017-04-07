@@ -1,32 +1,205 @@
-.header-img{
-	height: 30vh;
-	background-color: lightgrey;
-	width: 100%;
+@import url('https://fonts.googleapis.com/css?family=Cabin:400,500,600');
+@import "typography";
+@import "variables";
+
+
+.site-wrapper{
+	height: 100vh;
+	background-color: #FFAAAA;
 }
 
+.header-img{
+	height: 30vh;
+	background-color: $gray-lighter;
+	width: 100%;
+}
+img{
+	max-width: 100%;
+	height: auto;
+}
+.post, .with-feature-img{
+	img{
+		margin-top: 25px;
+	}
+}
+.input-group{
+	margin-top: 20px
+}
+.navbar-wrapper{
+	background-color: $creamy;
+}
 .container{
 	max-width: 100%;
 }
+.carousel-control-next{
+	right: -50px;
+} 
+.carousel-control-prev{
+	left: -50px;
+}
+.sidebar-dog{
+	.widget{
+		
+		h4{
+			font-size: 1.1em;
+			margin-bottom: 1.2em;
+		}	
+		ul{
+			list-style: none;
+			li{
+				margin-bottom: 1.2em;
+				a{
+					font-size: 1.6em;
+				}
+			}
+		border-bottom: 2px dotted $black-grey;
+
+		}
+		
+	}
+}
 
 .fa-angle-left, .fa-angle-right{
-	color: yellow;
+	color: $fire-orange;
 }
-.fa-angle-right{
-	
-}
+
+
 
 
 #carouselExampleControls{
 	margin-top:20px;
-}
-.carousel-item{
-	img{
-		margin: 0 auto;
-	}
-	ul{
-		list-style-type: none;
-	    padding: 0;
-		li{
+	margin: 20px;
+	.carousel-item{
+		.attachment-post-thumbnail .size-post-thumbnail .wp-post-image{
+			margin: 0 auto;
 		}
+		ul{
+			list-style-type: none;
+		    padding: 0;
+			li{
+			}
+		}
+		h2{
+			text-align: center;
+			a{
+				color: $mini-blue;
+				&:hover{
+					color: $marine-blue;
+					text-decoration: none;
+				}
+			}
+		}
+		img{
+			margin-left: auto;
+			margin-right: auto;
+			margin-bottom: 40px;
+			display: block;
+
+		}
+		div{
+			background-color: $creamy;
+		}
+	}
+}
+footer {
+	margin-top: 40px;
+	height: 80px;
+	background-color: $black-grey;
+	p{
+		
+		color: $gray-lighter;
+	}
+}
+
+.wp-post-image{
+	margin-bottom: 15px;
+}
+
+.categories{
+	.stora, .intermediate, .small{
+		float: left;
+		.attachment-post-thumbnail .size-post-thumbnail .wp-post-image{
+			margin: 0 auto;
+		
+		}
+		h4{
+			text-align: center;
+			a{
+				color: $mini-blue;
+				&:hover{
+					color: $marine-blue;
+					text-decoration: none;
+				}
+			}
+		}
+		img{
+			margin-left: auto;
+			margin-right: auto;
+			margin-bottom: 40px;
+			display: block;
+		
+		}
+		div{
+			background-color: $creamy;
+		}
+	}
+}
+
+
+
+.categories{
+	.organisation{
+		float: left;
+		.attachment-post-thumbnail .size-post-thumbnail .wp-post-image{
+			margin: 0 auto;
+		}
+		h4{
+			text-align: center;
+			a{
+				color: $mini-blue;
+				&:hover{
+					color: $marine-blue;
+					text-decoration: none;
+				}
+			}
+		}
+		img{
+			margin-left: auto;
+			margin-right: auto;
+			display: block;
+
+		}
+		p{
+			text-align: center;
+		}	
+	}
+}
+
+.page-template-page-vara-hundar{
+	.marine-blue{	
+		border-bottom: 2px dotted $black-grey;
+		margin-bottom: 25px;
+		h2{
+			margin: 25px 0;
+
+		}
+	}
+}
+
+.help{
+	h1{
+		margin: 25px 0;
+	}
+}
+
+.btn{
+	border-radius: 0;
+}
+
+.btn-primary{
+	background-color:$mini-blue;
+	&:hover{
+		background-color:$marine-blue;
+		color:$fire-orange;
 	}
 }

@@ -1,7 +1,7 @@
 <sidebar>
     <div  class="container">
         <div class="row">
-            <ul class="list-inline col-md-4">
+            <ul class="list-inline">
                 <?php if ( is_active_sidebar( 'sidebar-front' ) ) : ?>
                     <?php dynamic_sidebar( 'sidebar-front' ); ?>
                 <?php endif; ?>
